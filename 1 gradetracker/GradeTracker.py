@@ -7,7 +7,7 @@ needs to have login to protect the student data
 import statistics as s
 
 #add constants next
-admins = {'Faculty1':'ABC123','Faculty2':'ABC123'}
+admins = {'Kiki':'Barker','Faculty2':'ABC123'}
 
 #Like the admins above is a dictionary but of students. Dictionaries use curly brackets with colons to associate keys with values. In this case, each student's first name is a key. The values are lists of grades. 
 #Lists are denoted with square brackets. Values are indexed within starting with 0 for the first one. Each value is separated by commas.
@@ -48,7 +48,6 @@ def main():
     #Here we present our main menu options once a person logs in successfully.
     print("""
     Welcome to the Grade Tracker
-
     [1] - Enter Grades
     [2] - Remove Student
     [3] - Student Averages
